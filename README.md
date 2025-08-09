@@ -16,6 +16,11 @@ It uses a function named `calculate_discount(price, discount_percent)` that:
 3. The final price is **displayed with two decimal places**.
 4. If the user enters non-numeric values, an error message is displayed.
 
+  ## Main Program:
+Gets user input for price and discount_percent.
+Calls calculate_discount() and stores the result in final_price.
+Prints the final price
+
 ## Code Structure
 ```python
 def calculate_discount(price, discount_percent):
@@ -25,3 +30,8 @@ def calculate_discount(price, discount_percent):
         return final_price
     else:
         return price
+
+Example Run
+Enter the original price: 1000
+Enter the discount percentage: 25
+Final price: 750.00
